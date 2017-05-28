@@ -14,7 +14,7 @@ define('DB_NAME', 'iceland');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 
-define('URL', 'http://localhost:8080/iceland/');
+define('URL', 'http://localhost/iceland/');
 
 
 define('LIBS', 'libs/');

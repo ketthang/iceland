@@ -6,7 +6,7 @@ class Index extends Controller {
         parent::__construct();
     }
     function index(){
-        $this->view->hurtList = $this->model->hurtList();
+        //$this->view->hurtList = $this->model->hurtList();
         $this->view->render('index/index');
     }
 }

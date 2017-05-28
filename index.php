@@ -11,7 +11,7 @@ require LIBS.'Controller.php';
 require LIBS.'Model.php';
 require LIBS.'View.php';
 require LIBS.'Session.php';
-require LIBS.'Database.php';
+//require LIBS.'Database.php';
 require LIBS.'Hash.php';
 
 $app = new Bootstrap();
