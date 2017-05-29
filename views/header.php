@@ -27,6 +27,7 @@
                             <input class="text" name="search" size="32" maxlength="64" /><input class="button" type="submit" value="Search" />
                         </form>
                     </div>
+                    <!--
                     <div id="nav">
                         <ul>
                             <li class="first active">
@@ -34,11 +35,9 @@
                             </li>
                             <li>
                                 <a href="#">Đầu</a>
-                                <ul class="sub-menu">
-                                    <li><a href="#">wordpress</a></li>
-                                    <li><a href="#">seo</a></li>
-                                    <li><a href="#">hosting</a></li>
-                                </ul>
+                                
+                                
+                                
                             </li>
                             <li>
                                 <a href="#">Cơ thể</a>
@@ -58,6 +57,8 @@
                         </ul>
                         <br class="clear" />
                     </div>
+                    -->
+
                 </div><!--header-->
                 <div id="banner">
                     <img src="images/doctors.jpg" width="932" height="250" alt="" />

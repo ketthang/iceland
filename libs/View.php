@@ -9,7 +9,7 @@ class View {
             require 'views/'.$name.'.php';
         }else{
         require 'views/header.php';
-        require 'views/menuleft.php';
+        //require 'views/menuleft.php';
         require 'views/'.$name.'.php';
         require 'views/footer.php';
         }
