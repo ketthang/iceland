@@ -1,8 +1,9 @@
 
 <div class="row" id="intro">
-    <div class="col">
-    <img src="<?php echo URL; ?>images/tieuhoa.png" width="600" height="600"/></a>
-    <span id="tieuhoa-hth" onclick="playsound('<?php echo URL; ?>sounds/hth.MP3')"><h3>Hệ tiêu hóa - Meltingarkerfi</h3></span>
+    <h1 class="entry-title" onclick="playsound('<?php echo URL; ?>sounds/hth.MP3')">Hệ tiêu hóa - Meltingarkerfi</h1>
+    <div class="tieuhoa-image">
+    <img src="<?php echo URL; ?>images/tieuhoa.png" width="600" height="600"/>
+    </div>
     <span id="tieuhoa-tungudalskirtill" onclick="playsound('<?php echo URL; ?>sounds/Tungudalskirtill.MP3')">Tuyến nước bọt dưới lưỡi </br> Tungudalskirtill</span>
     <span id="tieuhoa-kjálkabarðskirtill" onclick="playsound('<?php echo URL; ?>sounds/kjálkabarðskirtill.MP3')">Tuyến nước bọt dưới hàm </br> kjálkabarðskirtill</span>
     <span id="tieuhoa-Vangakirtill" onclick="playsound('<?php echo URL; ?>sounds/Vangakirtill.MP3')">Tuyến nước bọt dưới mang tai </br> Vangakirtill</span>
@@ -19,7 +20,7 @@
     <span id="tieuhoa-Endaþarmsop" onclick="playsound('<?php echo URL; ?>sounds/Endaþarmsop.MP3')">Hậu môn - Endaþarmsop</span>
     <span id="tieuhoa-Fallristill" onclick="playsound('<?php echo URL; ?>sounds/Fallristill.MP3')">Ruột già xuống - Fallristill</span>
     <span id="tieuhoa-Endaþarmur" onclick="playsound('<?php echo URL; ?>sounds/Endaþarmur.MP3')">Trực tràng - Endaþarmur</span>
-    </div>   
+     
 </div><!--row-->
 
 

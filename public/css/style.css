@@ -37,7 +37,7 @@ br.clear {
 }
 
 h1,h2,h3,h4 {
-	text-transform: lowercase;
+	
 }
 
 h2,h3,h4 {
@@ -331,173 +331,194 @@ ul {
 /*.row .col-body{
     position: absolute;
 }*/
-.row .col #body-har{
+.row #body-har{
     position: absolute;
     left: 710px;
     top: 100px;
 }
-.row .col #body-auga{
+.row #body-auga{
     position: absolute;
     left: 710px;
     top: 200px;
 }
-.row .col #body-eyra{
+.row #body-eyra{
     position: absolute;
     left: 250px;
     top: 130px;
 }
-.row .col #body-nef{
+.row #body-nef{
     position: absolute;
     left: 300px;
     top: 210px;
 }
-.row .col #body-bringa{
+.row #body-bringa{
     position: absolute;
     left: 495px;
     top: 235px;
 }
-.row .col #body-varir{
+.row #body-varir{
     position: absolute;
     left: 240px;
     top: 280px;
 }
-.row .col #body-nafli{
+.row #body-nafli{
     position: absolute;
     left: 495px;
     top: 308px;
 }
-.row .col #body-upphandleggur{
+.row #body-upphandleggur{
     position: absolute;
     left: 710px;
     top: 315px;
 }
-.row .col #body-framhandleggur{
+.row #body-framhandleggur{
     position: absolute;
     left: 200px;
     top: 380px;
 }
-.row .col #body-læri{
+.row #body-læri{
     position: absolute;
     left: 280px;
     top: 480px;
 }
-.row .col #body-fóttleggur{
+.row #body-fóttleggur{
     position: absolute;
     left: 240px;
     top: 560px;
 }
-.row .col #body-rist{
+.row #body-rist{
     position: absolute;
     left: 240px;
     top: 600px;
 }
-.row .col #body-hné{
+.row #body-hné{
     position: absolute;
     left: 700px;
     top: 560px;
 }
-.row .col #body-tá{
+.row #body-tá{
     position: absolute;
     left: 670px;
     top: 600px;
 }
-.row .col #body-háls{
+.row #body-háls{
     position: absolute;
     left: 610px;
     top: 210px;
 }
-.row .col #tieuhoa-hth{
+.row #tieuhoa-hth{
     position: absolute;
     left: 710px;
     top: 30px;
 }
-.row .col #tieuhoa-tungudalskirtill{
+.row #tieuhoa-tungudalskirtill{
     position: absolute;
     left: 290px;
     top: 130px;
 }
 
-.row .col #tieuhoa-kjálkabarðskirtill{
+.row #tieuhoa-kjálkabarðskirtill{
     position: absolute;
     left: 250px;
     top: 190px;
 }
-.row .col #tieuhoa-Vangakirtill{
+.row #tieuhoa-Vangakirtill{
     position: absolute;
     left: 430px;
-    top: 40px;
+    top: 80px;
 }
-.row .col #tieuhoa-Vélinda{
+.row #tieuhoa-Vélinda{
     position: absolute;
     left: 615px;
     top: 250px;
 }
-.row .col #tieuhoa-Lifur{
+.row #tieuhoa-Lifur{
     position: absolute;
     left: 460px;
     top: 300px;
 }
-.row .col #tieuhoa-Magi{
+.row #tieuhoa-Magi{
     position: absolute;
     left: 590px;
     top: 300px;
 }
-.row .col #tieuhoa-Gallblaðra{
+.row #tieuhoa-Gallblaðra{
     position: absolute;
     left: 315px;
     top: 385px;
 }
-.row .col #tieuhoa-Milta{
+.row #tieuhoa-Milta{
     position: absolute;
     left: 670px;
     top: 350px;
 }
-.row .col #tieuhoa-Bris{
+.row #tieuhoa-Bris{
     position: absolute;
     left: 380px;
     top: 425px;
 }
-.row .col #tieuhoa-Risristill{
+.row #tieuhoa-Risristill{
     position: absolute;
     left: 300px;
     top: 500px;
 }
-.row .col #tieuhoa-Þverristill{
+.row #tieuhoa-Þverristill{
     position: absolute;
     left: 670px;
     top: 445px;
 }
-.row .col #tieuhoa-Smáþarmar{
+.row #tieuhoa-Smáþarmar{
     position: absolute;
     left: 210px;
     top: 515px;
 }
-.row .col #tieuhoa-Botnlangi{
+.row #tieuhoa-Botnlangi{
     position: absolute;
     left: 320px;
     top: 565px;
 }
-.row .col #tieuhoa-Endaþarmsop{
+.row #tieuhoa-Endaþarmsop{
     position: absolute;
     left: 370px;
     top: 615px;
 }
-.row .col #tieuhoa-Fallristill{
+.row #tieuhoa-Fallristill{
     position: absolute;
     left: 670px;
     top: 510px;
 }
-.row .col #tieuhoa-Endaþarmur{
+.row #tieuhoa-Endaþarmur{
     position: absolute;
     left: 670px;
     top: 550px;
 }
-.row .col a{
+.row a{
     text-decoration: none;
 }
-.row .col a:hover, a:visited{
+.row a:hover, a:visited{
     color: #265778;
 }
-.row .col span:hover, span:visited{
+.row span:hover, span:visited{
     color: #117848;
+}
+.body-image{
+    padding-left: 195px;
+    margin-top: -40px;
+}
+.tieuhoa-image{
+    padding-left: 195px;
+}
+.hohap-image{
+    padding-left: 195px;
+}
+.video{
+    padding-left: 190px;
+    padding-top: 20px;
+}
+.entry-title{
+  color:#7C8A71;
+  font-size:21px;
+  font-weight:bold;
+  line-height:1.3em;
+  margin-bottom:0;
 }

@@ -1,7 +1,9 @@
 
 <div class="row" id="intro">
-    <div class="col">
-    <img src="<?php echo URL; ?>images/body.png" width="600" height="600"/></a>
+    <h1 class="entry-title">Líkaminn - Cơ Thể</h1>
+    <div class="body-image">
+    <img src="<?php echo URL; ?>images/body.png" width="600" height="600"/>
+    </div>
     <span id="body-eyra" onclick="playsound('<?php echo URL; ?>sounds/eyra.MP3')">Tai - Eyra/Eyru</span>
     <span id="body-har" onclick="playsound('<?php echo URL; ?>sounds/har.MP3')">Tóc - Hár</span>
     <span id="body-nef" onclick="playsound('<?php echo URL; ?>sounds/nef.MP3')">Mũi - Nef</span>
@@ -17,7 +19,7 @@
     <span id="body-hné" onclick="playsound('<?php echo URL; ?>sounds/hné.MP3')">Đầu gối - Hné</span>
     <span id="body-tá" onclick="playsound('<?php echo URL; ?>sounds/tá.MP3')">Ngón chân - Tá</span>
     <span id="body-háls" onclick="playsound('<?php echo URL; ?>sounds/háls.MP3')">Cổ - Háls</span>
-    </div>   
+     
 </div><!--row-->
 
 

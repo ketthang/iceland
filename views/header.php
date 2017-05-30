@@ -16,52 +16,10 @@
 
         <div id="bg">
             <div id="outer">
-                <div id="header">
-                    <div id="logo">
-                        <h1>
-                            <a href="<?php echo URL; ?>">Bênh viện</a>
-                        </h1>
-                    </div>
-                    <div id="search">
-                        <form action="" method="post">
-                            <input class="text" name="search" size="32" maxlength="64" /><input class="button" type="submit" value="Search" />
-                        </form>
-                    </div>
-                    <!--
-                    <div id="nav">
-                        <ul>
-                            <li class="first active">
-                                <a href="<?php echo URL; ?>">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">Đầu</a>
-                                
-                                
-                                
-                            </li>
-                            <li>
-                                <a href="#">Cơ thể</a>
-                            </li>
-                            <li>
-                                <a href="#">Nội Quan</a>
-                            </li>
-                            <li>
-                                <a href="#">Khác</a>
-                            </li>
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <li class="last">
-                                <a href="#">Contact</a>
-                            </li>
-                        </ul>
-                        <br class="clear" />
-                    </div>
-                    -->
-
-                </div><!--header-->
                 <div id="banner">
+                    <a href="index">
                     <img src="images/doctors.jpg" width="932" height="250" alt="" />
+                    </a>
                 </div>
                 <div id="main">
 
