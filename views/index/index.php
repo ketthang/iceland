@@ -24,7 +24,7 @@
         </div>
     </div>
     <div class="col">
-        <a href="hohap"> <img src="<?php echo URL; ?>images/hehohap.png" width="260" height="260"/></a>
+        <a href="hohap"> <img src="<?php echo URL; ?>images/hohap.png" width="260" height="260"/></a>
         <div class="desc">
             <a href='hohap'>Öndunarkerfi - Hệ Hô Hấp</a>
         </div>

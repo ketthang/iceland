@@ -512,7 +512,7 @@ ul {
     padding-left: 195px;
 }
 .video{
-    padding-left: 190px;
+    float: left;
     padding-top: 20px;
 }
 .entry-title{
@@ -521,4 +521,17 @@ ul {
   font-weight:bold;
   line-height:1.3em;
   margin-bottom:0;
+}
+.phude{
+    overflow-y: scroll;
+    height: 315px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.phude td{
+    padding-left: 10px;
+    border: solid 1px;
+}
+.phude-index{
+    width: 20px;
 }
