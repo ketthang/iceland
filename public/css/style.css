@@ -535,3 +535,16 @@ ul {
 .phude-index{
     width: 20px;
 }
+
+.adminMenu ul{
+background-color: #117848;
+}
+.adminMenu li{
+    height: 30px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+.adminMenu a{
+    display: block;
+}

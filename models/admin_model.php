@@ -1,6 +1,6 @@
 <?php
 
-class Dashboard_Model extends Model {
+class Admin_Model extends Model {
 
     public function __construct() {
         parent::__construct();
@@ -14,6 +14,8 @@ class Dashboard_Model extends Model {
 //		$data = array('text' => $text, 'id' => $this->db->lastInsertId());
 //		echo json_encode($data);
     }
+
+
 
     public function xhrGetListings() {
         $result = $this->db->select("SELECT * FROM data");
@@ -29,6 +31,12 @@ class Dashboard_Model extends Model {
             'sound'=>$data['sound']
         ));
     }
+    public function catalogAdd($data){
+        $this->db->insert('catalog', array('nameIS'=>$data['nameIS'],
+                                           'nameVN'=>$data['nameVN'],
+                                           'image'=>$data['image'],
+                                           'link'=>$data['link']));
+    }
 
     public function uploadSound() {
         $path = "sounds/";
@@ -39,7 +47,7 @@ class Dashboard_Model extends Model {
         
     }
 
-    public function uploadImgae() {
+    public function uploadImage() {
         // Ấn định  dung lượng file ảnh upload
         define("MAX_SIZE", "100");
 

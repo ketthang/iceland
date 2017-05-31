@@ -7,6 +7,7 @@ class Index extends Controller {
     }
     function index(){
         //$this->view->hurtList = $this->model->hurtList();
+        $this->view->catalog = $this->model->catalog();
         $this->view->render('index/index');
     }
 }

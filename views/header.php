@@ -18,7 +18,7 @@
             <div id="outer">
                 <div id="banner">
                     <a href="index">
-                    <img src="images/doctors.jpg" width="932" height="250" alt="" />
+                    <img src="<?php echo URL;?>images/doctors.jpg" width="932" height="250" alt="" />
                     </a>
                 </div>
                 <div id="main">

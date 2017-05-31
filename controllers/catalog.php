@@ -1,6 +1,6 @@
 <?php
 
-class Dashboard extends Controller {
+class Catalog extends Controller {
 
 	function __construct() {
 		parent::__construct();
@@ -11,12 +11,10 @@ class Dashboard extends Controller {
 			header('location:'.URL.'login');
 			exit;
 		}
-		$this->view->js = array('dashboard/js/default.js');
 	}
-	
 	function index() 
 	{	
-		$this->view->render('dashboard/index');
+		$this->view->render('admin/index');
 	}
 	
 	function logout()
@@ -25,10 +23,25 @@ class Dashboard extends Controller {
 		header('location: ../login');
 		exit;
 	}
+        public function add(){
+            $this->view->render('catalog/add');
+        }
+
+        public function catalogAdd(){
+              //$this->view->render('admin/index');
+            $data=array();
+            $data['nameIS']=$_POST['txtNameIS'];
+            $data['nameVN']=$_POST['txtNameVN'];
+            $data['image']= $this->model->uploadImage();
+            $data['link']=$_POST['txtLink'];
+            $this->model->catalogAdd($data);
+            header('location: '.URL.'catalog/add');
+        }
+
         public function create() 
 	{
 		$data = array();
-                $data['image']= $this->model->uploadImgae();
+                $data['image']= $this->model->uploadImage();
                 $data['sound']=$this->model->uploadSound();
 		$data['vietnam'] = $_POST['txtVietnam'];
 		$data['iceland'] = $_POST['txtIceland'];
@@ -37,7 +50,7 @@ class Dashboard extends Controller {
 //                print_r($data);
 		
 		$this->model->create($data);
-		header('location: ' . URL . 'dashboard');
+		header('location: ' . URL . 'admin');
 	}
 	
 	function xhrInsert()

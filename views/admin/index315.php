@@ -1,5 +1,3 @@
-Dashboard... Logged in only..
-
 <br />
 
 <form action="<?php echo URL;?>dashboard/create" method="post" enctype="multipart/form-data">
